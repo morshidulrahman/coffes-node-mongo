@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.send("coffe server is running");
 });
 
-// coffeMaster PvqyHMxxCnGP1kNW
+ 
 
 // mongodb connections
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.apzeojt.mongodb.net/?retryWrites=true&w=majority`;
